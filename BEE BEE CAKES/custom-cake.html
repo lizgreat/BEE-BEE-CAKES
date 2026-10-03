@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Custom Cakes | BEE BEE CAKE</title>
+    <meta
+      name="description"
+      content="Request a beautiful custom cake from BEE BEE CAKE."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div data-header></div>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Made for your moment</p>
+          <h1>Design a cake that feels like you.</h1>
+          <p class="lead">
+            Share the details below and your request will be prepared for
+            WhatsApp, ready to send to BEE BEE CAKE.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <form class="form" id="custom-form">
+            <div class="fields">
+              <label class="field"
+                >Your name<input
+                  name="customerName"
+                  required
+                  autocomplete="name" /></label
+              ><label class="field"
+                >Phone number<input
+                  name="phoneNumber"
+                  type="tel"
+                  required
+                  autocomplete="tel" /></label
+              ><label class="field"
+                >Email<input
+                  name="email"
+                  type="email"
+                  required
+                  autocomplete="email" /></label
+              ><label class="field"
+                >Cake type<select name="cakeType" required>
+                  <option value="">Select one</option>
+                  <option>Birthday cake</option>
+                  <option>Wedding cake</option>
+                  <option>Celebration cake</option>
+                  <option>Other custom cake</option>
+                </select></label
+              ><label class="field"
+                >Flavour<select name="flavour" required>
+                  <option value="">Select one</option>
+                  <option>Vanilla</option>
+                  <option>Chocolate</option>
+                  <option>Red Velvet</option>
+                  <option>Strawberry</option>
+                  <option>Coconut</option>
+                </select></label
+              ><label class="field"
+                >Cake size<input
+                  name="cakeSize"
+                  required
+                  placeholder="e.g. 8 inch, two tiers" /></label
+              ><label class="field"
+                >Event type<input
+                  name="eventType"
+                  required
+                  placeholder="e.g. Birthday" /></label
+              ><label class="field"
+                >Event date<input
+                  name="eventDate"
+                  type="date"
+                  required /></label
+              ><label class="field full"
+                >Preferred delivery location<input
+                  name="deliveryLocation"
+                  required
+                  placeholder="Lagos or Abuja area" /></label
+              ><label class="field full"
+                >Cake design or theme<textarea
+                  name="cakeDesign"
+                  required
+                  placeholder="Describe colours, inspiration, message, tiers or any design ideas."
+                ></textarea></label
+              ><label class="field full"
+                >Additional notes<textarea
+                  name="additionalNotes"
+                  placeholder="Anything else we should know?"
+                ></textarea>
+              </label>
+            </div>
+            <button class="button" type="submit" style="margin-top: 1.4rem">
+              Send Request on WhatsApp
+            </button>
+            <p class="notice">
+              Please complete the required fields before sending your request.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div data-footer></div>
+    <script src="app.js"></script>
+  </body>
+</html>

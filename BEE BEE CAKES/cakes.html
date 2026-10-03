@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cakes | BEE BEE CAKE</title>
+    <meta
+      name="description"
+      content="Browse celebration cakes from BEE BEE CAKE."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div data-header></div>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">The cake collection</p>
+          <h1>Find your perfect centrepiece.</h1>
+          <p class="lead">
+            Beautiful cakes for birthdays, weddings, celebrations and everyday
+            sweetness.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="filterbar">
+            <button class="active" data-filter="All">All cakes</button
+            ><button data-filter="Birthday">Birthday</button
+            ><button data-filter="Wedding">Wedding</button
+            ><button data-filter="Celebration">Celebration</button
+            ><button data-filter="Classic">Classic</button>
+          </div>
+          <div class="grid" data-cakes></div>
+        </div>
+      </section>
+    </main>
+    <div data-footer></div>
+    <script src="app.js"></script>
+  </body>
+</html>
